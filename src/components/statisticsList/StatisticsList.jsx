@@ -5,11 +5,10 @@ const StatiscticsList = ({ array }) => {
   return (
     <List>
       {array.map(({ id, label, percentage }) => {
-        console.log(id, label, percentage);
         return (
-          <Item key={id}>
+          <Item color={id} key={id}>
             <Label>{label}</Label>
-            <Percentage>{percentage}</Percentage>
+            <Percentage>{percentage}&#37;</Percentage>
           </Item>
         );
       })}

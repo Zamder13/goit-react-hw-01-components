@@ -4,7 +4,6 @@ import ProfileBox from '../profileBox/ProfileBox';
 import { Wrapper } from './Profile.styled';
 
 const Profile = ({ data }) => {
-  console.log(data);
   return (
     <Wrapper>
       <ProfileBox props={data} />

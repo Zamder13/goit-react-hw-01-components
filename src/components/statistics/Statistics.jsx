@@ -17,7 +17,7 @@ Statistics.propTypes = {
 };
 
 Statistics.defaultProps = {
-  title: 'Statistics',
+  title: 'upload stats',
 };
 
 export default Statistics;

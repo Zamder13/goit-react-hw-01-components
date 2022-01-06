@@ -5,7 +5,6 @@ const FriendList = ({ data }) => {
   return (
     <List>
       {data.map(({ avatar, name, isOnline, id }) => {
-        console.log(avatar, name, isOnline, id);
         return (
           <Item key={id}>
             <Status online={isOnline}>{isOnline}</Status>

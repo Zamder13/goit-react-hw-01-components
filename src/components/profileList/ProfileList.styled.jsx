@@ -9,4 +9,8 @@ export const List = styled.ul`
   gap: 30px;
 `;
 export const Item = styled.li``;
-export const Info = styled.span``;
+export const Info = styled.span`
+  font-weight: ${props => {
+    return props.info ? `700` : `400`;
+  }};
+`;

@@ -2,19 +2,18 @@ import PropTypes from 'prop-types';
 import { List, Item, Info } from './ProfileList.styled';
 
 const ProfileList = ({ user }) => {
-  //   //   console.log(user);
   return (
     <List>
       <Item>
-        <Info>Followers:&#32;</Info>
+        <Info info>Followers:&#32;</Info>
         <Info>{user.followers}</Info>
       </Item>
       <Item>
-        <Info>Views:&#32;</Info>
+        <Info info>Views:&#32;</Info>
         <Info>{user.views}</Info>
       </Item>
       <Item>
-        <Info>Likes:&#32;</Info>
+        <Info info>Likes:&#32;</Info>
         <Info>{user.likes}</Info>
       </Item>
     </List>

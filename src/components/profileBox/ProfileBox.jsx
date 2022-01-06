@@ -5,8 +5,10 @@ export const ProfileBox = ({ props }) => {
   return (
     <Container>
       <Photo src={props.avatar} alt="User avatar" />
-      <Info>{props.username}</Info>
-      <Info>&#64;{props.tag}</Info>
+      <Info>
+        <b>{props.username}</b>
+      </Info>
+      <Info email>&#64;{props.tag}</Info>
       <Info>{props.location}</Info>
     </Container>
   );
